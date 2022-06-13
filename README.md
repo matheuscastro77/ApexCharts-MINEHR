@@ -13,7 +13,7 @@ ApexCharts MINEHR
 ---
 ## Website
 ### Dashboard
-![home](https://user-images.githubusercontent.com/94663972/158402424-43469ade-f3fc-404e-bd73-3452fa7e8a05.png
+![dashboard](https://user-images.githubusercontent.com/94663972/173442674-2724d886-6764-4a40-9308-7b743b91f5fb.png)
 
 
 ## Lista de linguages, framework e/ou tecnologias usadas
