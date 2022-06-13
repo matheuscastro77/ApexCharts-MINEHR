@@ -16,12 +16,12 @@ ApexCharts MINEHR
 ![home](https://user-images.githubusercontent.com/94663972/158402424-43469ade-f3fc-404e-bd73-3452fa7e8a05.png
 
 
-## List with language, framework and/or technologies used
+## Lista de linguages, framework e/ou tecnologias usadas
 <ul>
-	<li>HTML, CSS AND JAVASCRIPT</li>
-	<li>React</li>
-	<li>Route System</li>
-	<li>Styled-Components</li>
+  <li>HTML, CSS AND JAVASCRIPT</li>
+  <li>React</li>
+  <li>Route System</li>
+  <li>Styled-Components</li>
   <li>Apex Charts</li> 
   <li>Material Ui</li>
 </ul>
