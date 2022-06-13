@@ -8,20 +8,20 @@ import FilterAltIcon from '@mui/icons-material/FilterAlt';
 const Dashboard = () => {
   return (
     <Main>
-    <Header />
-    <Body>
-    <Container>
-    <Tittles>
-    <H1>Dashboard</H1>
-    <H2>Desafio Técnico Frontend</H2>
-    </Tittles>
-    <Button> <FilterAltIcon /> Filtrar</Button>
-    </Container>
-    <Grafics>
-    <BarraSimples />
-    <Scatter />
-    </Grafics>
-    </Body>
+      <Header />
+      <Body>
+        <Container>
+          <Tittles>
+            <H1>Dashboard</H1>
+            <H2>Desafio Técnico Frontend</H2>
+          </Tittles>
+          <Button> <FilterAltIcon sx={{ fontSize: '23px' }} /> Filtrar</Button>
+        </Container>
+        <Grafics>
+          <BarraSimples />
+          <Scatter />
+        </Grafics>
+      </Body>
     </Main>
   )
 }

@@ -4,6 +4,7 @@ export const Main = styled.main`
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    width: 43%;
     padding: 10px 35px 10px 35px;
 `
 
@@ -21,7 +22,23 @@ export const P = styled.p`
     width: 12.5%;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+
+    @media screen and (max-width: 1768px){
+    font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1768px){
+    font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 1440px){
+    font-size: 1rem;
+    }
+
+    @media screen and (max-width: 1366px){
+    font-size: 0.9rem;
+    }
 `
 
 export const Img = styled.img`

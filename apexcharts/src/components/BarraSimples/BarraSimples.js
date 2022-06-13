@@ -13,9 +13,13 @@ const BarraSimples = () => {
 
     <Main>
       <Container>
-      <P>Barras <Img src={info}/></P>  <MenuIcon sx={{ color: '#5D405C', fontSize: '35px' }} />
+        <P>Barras <Img src={info} /></P>  <MenuIcon sx={{
+          color: '#5D405C', fontSize: '35px', '&:hover': {
+            cursor: 'pointer'
+          }
+        }} />
       </Container>
-      <Chart options={optionsBarra} series={seriesBarra} type="bar" height={400} width={775} />
+      <Chart options={optionsBarra} series={seriesBarra} type="bar" height={350} style={{ width: '100%' }} />
     </Main>
 
   )

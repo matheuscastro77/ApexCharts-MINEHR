@@ -14,9 +14,13 @@ const Scatter = () => {
 
         <Main>
             <Container>
-            <P>Scatter <Img src={info}/></P> <MenuIcon sx={{ color: '#5D405C', fontSize: '35px' }} />
+                <P>Scatter <Img src={info} /></P> <MenuIcon sx={{
+                    color: '#5D405C', fontSize: '35px', '&:hover': {
+                        cursor: 'pointer'
+                    }
+                }} />
             </Container>
-            <Chart options={optionsScatter} series={seriesScatter} type="scatter" height={400} width={775} />
+            <Chart options={optionsScatter} series={seriesScatter} type="scatter" height={350} style={{ width: '100%' }} />
         </Main>
 
     );

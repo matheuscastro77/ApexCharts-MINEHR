@@ -5,10 +5,10 @@ import GlobalState from "./context/GlobalState";
 
 const App = () => {
   return (
-      <GlobalState>
-        <GlobalStyled />
-        <Router />
-      </GlobalState>
+    <GlobalState>
+      <GlobalStyled />
+      <Router />
+    </GlobalState>
   )
 }
 
